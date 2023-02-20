@@ -1,4 +1,4 @@
-﻿#include"net/net.hpp"
+#include"net/net.hpp"
 
 #include"model/main/mainwindow.hpp"
 #include"model/login/loginwindow.hpp"
@@ -7,7 +7,7 @@
 
 #include<QtWidgets/QApplication>
 
-//Shared by many
+//Shared variables
 net::Client* clientNet;
 std::mutex netMutexLock;
 
